@@ -1,0 +1,41 @@
+.app-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: beige;
+    
+}
+.containerLogo{
+    display: flex;
+    align-items: center;
+}
+
+.app-header a {
+    text-decoration: none;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    padding: 5px;
+}
+.navbarLinks{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+}
+.navContainer div{
+    color: black;
+}
+.navContainer div a{
+    color: black;
+}
+
+.navbar li a:hover{
+    color: rgba(0, 0, 0, 0.6);
+}

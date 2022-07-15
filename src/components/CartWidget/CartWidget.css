@@ -1,0 +1,25 @@
+.cart{
+    display: flex;
+    position: relative;
+}
+
+.cart i{
+    font-size: 38px;
+    color: black;
+}
+.cart i:hover{
+    font-size: 40px;
+    color: #0d6efd;
+}
+
+.cart-count{
+    color: white;
+    background-color: blue;
+    padding: 0px 5px 0px 5px;
+    border-radius: 50%;
+    position: absolute;
+    line-height: 23px;
+    right: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
